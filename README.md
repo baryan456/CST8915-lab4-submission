@@ -59,7 +59,7 @@ Each container has its own writable layer so that changes made while the contain
 
 Docker Compose allows multiple related services to be defined in a single YAML configuration file. It simplifies container startup, networking, environment configuration, and service dependencies. Instead of managing each container with separate commands, I can use commands such as `docker compose up` and `docker compose down` to manage the application as a group.
 
-## Challenges and Lessons Learned
+## 4. Challenges and Lessons Learned
 
 During this lab, I learned how to install Docker, build images, run containers, and explore Docker image and writable layers. I also gained practical experience using Docker Compose to run a Flask web application alongside Redis. Testing the application helped me understand how multiple services communicate within a containerized environment.
 
